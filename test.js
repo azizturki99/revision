@@ -1,1 +1,0 @@
-consolz.log(hello world )
