@@ -212,4 +212,19 @@ function findMax(arr) {
 }
 ----------
 14////
+15///
+function palindrome(str){
+    var t=""
+    for(var i=str.length-1;i>=0;i--){
+        t+=str[i]
+    }
+    if(t===str){
+        return str +" "+"is palandrome"
+    }else{
+        return str+" "+"is not palandrome"
+    }
+}
+----------
+16///
+
 
