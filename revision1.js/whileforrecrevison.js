@@ -109,6 +109,25 @@ function laughWithFor(n) {
     return h
 }
 ------------
-
+5////
+function sumWithWhile(n) {
+    var s=0
+    for (var i=n;i>0;i--){
+        s+=i
+    }
+    return s
+}
+----------
+function sumWithWhile(n) {
+    var i=n
+    var s=0
+    while (i>0){
+        s+=i
+        i--
+    }
+    return s
+}
+-----------
+6////
 
 
