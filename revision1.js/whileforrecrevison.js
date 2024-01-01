@@ -138,6 +138,25 @@ function fac(n){
 }
 ------------
 6////
+function rangeFor(x,y ) {
+    var res=[]
+    for(var i=x;i<y;i++){
+        res.push(i)
+    }
+    return res
+}
+----------
+function rangeFor(x,y ) {
+    var i=x
+    var res=[]
+    while (i<y){
+        res.push(i)
+        i++
+    }
+    return res
+}
+-----------
+7/////
 
 
 
