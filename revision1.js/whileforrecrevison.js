@@ -157,6 +157,24 @@ function rangeFor(x,y ) {
 }
 -----------
 7/////
-
+function rev(str){
+    var r=""
+        for (var i=str.length-1;i>=0;i--){
+        r+=str[i]
+        }
+        return r
+    }
+    -----------------
+    function rev(str){
+        var i=str.length-1
+        var r=""
+            while (i>=0){
+            r+=str[i]
+            i--
+            }
+            return r
+        }
+-------------
+8/////
 
 
