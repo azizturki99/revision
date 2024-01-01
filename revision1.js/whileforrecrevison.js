@@ -89,3 +89,26 @@ function weirdDivisionWithFor(n) {
         i++
     }
 }
+---------------
+4////
+function laughWithFor(n) {
+    var h="ha"
+    for(var i=0 ; i<n-1 ; i++){
+         h+="ha"
+    }
+    return h
+}
+------------
+function laughWithFor(n) {
+    var h="ha"
+    var i=0 
+    while(i<n-1) {
+         h+="ha"
+        i++
+    }
+    return h
+}
+------------
+
+
+
