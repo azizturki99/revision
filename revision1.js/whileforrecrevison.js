@@ -199,5 +199,17 @@ function average(arr){
     return res=sum/arr.length
 }
 13///
-
+function findMax(arr) {
+    var big=[0]
+  for (var i=0;i<arr.length;i++){
+     if( arr[i]>big){
+         big=arr[i]
+     }
+      
+  }
+      return big
+    
+}
+----------
+14////
 
