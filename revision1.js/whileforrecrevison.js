@@ -58,7 +58,34 @@ unction iterateAndLog(n) {
         console.log(n + " is odd")
     }
 
-    iterateAndLogRecursively(n - 1)
+    iterateAndLog(n - 1)
 }
 -------------
 3//////
+function weirdDivisionWithFor(n) {
+    for(var i =1;i<=n;i++){
+        if (n%3===0){
+            console.log("julia")
+        }
+        else if (n%5===0){
+            console.log("james")
+        }else {
+            console.log(n)
+        }
+    }
+}
+-----------
+function weirdDivisionWithFor(n) {
+    var i =1
+    while(i<=n){
+        if (n%3===0){
+            console.log("julia")
+        }
+        else if (n%5===0){
+            console.log("james")
+        }else {
+            console.log(n)
+        }
+        i++
+    }
+}
