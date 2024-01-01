@@ -176,5 +176,19 @@ function rev(str){
         }
 -------------
 8/////
+9/////
+10////
+11////
+function remove(arr,el){
+    var t=[]
+    for (var i=0;i<arr.length;i++){
+        if(arr[i]!==el){
+           t.push(arr[i])
+        }
+    }
+    return t
+        
+}
+12///
 
 
